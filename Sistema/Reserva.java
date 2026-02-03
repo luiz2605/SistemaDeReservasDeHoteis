@@ -5,9 +5,6 @@ import SistemaDeReservasHotel.Interface.Faturavel;
 
 import java.util.Arrays;
 
-import static jdk.internal.foreign.abi.s390.S390Architecture.Regs.r1;
-import static jdk.internal.foreign.abi.s390.S390Architecture.Regs.r2;
-
 public class Reserva implements Faturavel {
 
     private Hospede hospede;
